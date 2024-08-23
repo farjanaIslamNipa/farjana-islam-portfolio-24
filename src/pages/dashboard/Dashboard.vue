@@ -1,6 +1,6 @@
 <template>
   <div>
-Home page
+dashboard home
   </div>
 </template>
 

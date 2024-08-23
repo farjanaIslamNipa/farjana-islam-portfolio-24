@@ -1,27 +1,22 @@
-import { createWebHistory, createRouter } from "vue-router";
-import Home from "../pages/client/HomePage.vue";
-import NotFound from "../pages/NotFound.vue";
+import HomePage from '@/pages/client/HomePage.vue';
+import Dashboard from '@/pages/dashboard/Dashboard.vue';
+import { createMemoryHistory, createRouter } from 'vue-router'
 
 const routes = [
-  {
-    path: "/",
-    name: "home",
-    component: Home,
-  },
-  // {
-  //   path: "/about",
-  //   name: "About",
-  //   component: About,
-  // },
-  {
-    path: "/:catchAll(.*)",
-    component: NotFound,
-  },
-];
+  { 
+    path: '/', 
+    component: HomePage,
+    meta: {layout: 'client'}
+   },
+  { path: '/dashboard',
+   component: Dashboard,
+   meta: { layout: 'admin' },
+   },
+]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createMemoryHistory(),
   routes,
-});
+})
 
 export default router;
