@@ -1,8 +1,9 @@
 <template>
-  <component :is="layout">
-    <router-view />
-  </component>
   <div :class="{ 'dark': isDarkMode }" class="transition-colors duration-500">
+    <component :is="layout">
+      <router-view />
+    </component>
+
     <div class="min-h-screen bg-white dark:bg-gray-800">
       <header class="p-4 bg-gray-200 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
         <button @click="toggleDarkMode">
@@ -17,7 +18,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted } from 'vue';
+import { computed, onMounted, provide } from 'vue';
 import { useRoute } from 'vue-router';
 import DashboardLayout from './layout/DashboardLayout.vue';
 import DefaultClientLayout from './layout/DefaultClientLayout.vue';
@@ -51,4 +52,6 @@ onMounted(() => {
     document.documentElement.classList.add('dark')
   }
 })
+
+provide('toggleDarkMode', toggleDarkMode)
 </script>
