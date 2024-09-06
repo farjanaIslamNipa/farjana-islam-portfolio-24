@@ -1,5 +1,5 @@
-import HomePage from '@/pages/client/HomePage.vue';
-import Dashboard from '@/pages/dashboard/Dashboard.vue';
+import HomePage from '../views/client/HomePage.vue'
+import Dashboard from '../views/dashboard/Dashboard.vue';
 import { createMemoryHistory, createRouter } from 'vue-router'
 
 const routes = [
