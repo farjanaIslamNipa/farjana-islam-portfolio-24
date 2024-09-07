@@ -44,5 +44,5 @@ onMounted(() => {
   }
 })
 
-provide('toggleDarkMode', toggleDarkMode)
+provide('theme', {isDarkMode, toggleDarkMode})
 </script>
