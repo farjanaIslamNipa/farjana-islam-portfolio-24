@@ -6,7 +6,7 @@
           <RouterLink to="/projects" class="nav-item">Projects</RouterLink>
           <RouterLink to="/projects" class="nav-item">About</RouterLink>
           <RouterLink to="/projects" class="nav-item">Contact</RouterLink>
-          <button class="hidden xs:inline-block px-3 sm:px-4 py-1 rounded-lg  text-orange-600 font-medium hover:bg-apple-green">Resume</button>
+          <button class="hidden xs:inline-block px-3 sm:px-4 py-1 rounded-lg text-app-orange font-medium hover:bg-apple-green">Resume</button>
         </div>
         <div class="absolute right-[12px] sm:right-[25px] top-[19px] sm:top-[28px]">
           <input @change="toggleDarkMode" :checked="isDarkMode" type="checkbox" className="checkbox absolute opacity-0 top-0" id="checkbox" />

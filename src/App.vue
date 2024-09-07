@@ -1,6 +1,6 @@
 <template>
   <div :class="{ 'dark': isDarkMode }" class="transition-colors duration-500">
-    <div class="bg-white dark:bg-dark-blue text-app-black dark:text-app-white">
+    <div class="bg-white dark:bg-dark-blue text-app-black dark:text-app-white pt-28">
       <component :is="layout">
         <router-view />
       </component>
