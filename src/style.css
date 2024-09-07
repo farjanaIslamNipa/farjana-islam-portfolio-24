@@ -14,9 +14,9 @@ a, button{
 }
 
 .app-container{
-  @apply max-w-[1300px] mx-auto px-10
+  @apply max-w-[1300px] mx-auto px-6
 }
 
 .nav-item {
-  @apply px-4 py-1 rounded-lg text-dark-blue dark:text-apple-green hover:bg-dark-blue/10 dark:hover:bg-white/10
+  @apply px-3 sm:px-4 py-1 rounded-lg text-dark-blue dark:text-apple-green hover:bg-dark-blue/10 dark:hover:bg-white/10
 }
