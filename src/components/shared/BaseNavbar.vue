@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full fixed top-0">
+  <div class="w-full fixed top-0 z-30">
     <div class="app-container">
       <div class="bg-dark-blue/10 dark:bg-white/10 backdrop-blur-sm backdrop-filter rounded-2xl mt-6 py-4 sm:py-6 text-gray-200 relative">
         <div class="flex sm:justify-center items-center  sm:gap-x-5 md:gap-x-8">
