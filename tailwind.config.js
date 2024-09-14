@@ -21,8 +21,8 @@ export default {
         'mint-green': "#5FEE83",
         'apple-green': "#A0E5BF",
         'app-white': "#e5e7eb",
-        'app-black': "#0c031c ",
-        'app-orange': "#ea580c ",
+        'app-black': "#0c031c",
+        'app-orange': "#ea580c",
       },
       fontSize: {
         'app' : '15px'
