@@ -1,31 +1,34 @@
 <template>
   <div class="bg-white/5 mt-14">
-    <div class="app-container py-8">
-      <h1 class="text-3xl font-semibold">Key Expertise</h1>
-      <div class="grid grid-cols-3 gap-x-5 py-10">
+    <div class="app-container pt-28 pb-20">
+      <div class="grid grid-cols-3 gap-x-5">
         <div class="bg-app-black p-4 rounded-xl">
-          <!-- <div class="max-w-md mx-auto shadow-md rounded-lg overflow-hidden">
-            <div class="p-4">
-                <img src="/images/web-design.svg" alt="Rounded Image" class="rounded-xl float-left mr-4 mb-4 h-[100px]">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros non ligula varius tristique. Phasellus et orci nisi. Integer malesuada, arcu eu vestibulum pellentesque, sapien lorem dapibus mauris, vel vehicula leo elit in enim. Pellentesque ut turpis in mi vestibulum condimentum. Nullam feugiat ex id risus consequat, et tincidunt libero tincidunt.
-                </p>
+          <div class="pb-5 px-4">
+            <div class="flex justify-center">
+              <img src="/images/web-design.svg" alt="Web Design" class="h-[130px] rounded-full border-[12px] border-app-light-black -mt-[78px]">
             </div>
-          </div> -->
-          <div class="flex w-full gap-x-4">
-            <div class="">
-              <div class="bg-[#181028] rounded-full p-3 -ml-8 -mt-8 h-[120px] w-[120px] flex justify-center items-center">
-                <img src="/images/web-design.svg" alt="Web Design" class="rounded-xl h-[100px]">
-              </div>
-            </div>
-            <div>
-              <p class="text-xl font-semibold text-apple-green">Web Design</p>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur</p>
-            </div>
+            <p class="text-2xl font-bold text-center my-3"><span class="text-mint-green">Web</span> <span class="text-app-orange font-bold">Design</span></p>
+            <p class="text-justify">Crafting visually appealing and user-friendly websites with a focus on responsive design, seamless navigation, and innovative layouts to enhance user experience. Leveraging the latest design trends and tools to create aesthetically pleasing and functional designs that effectively communicate your brand’s message.</p>
           </div>
         </div>
-        <div class="bg-mint-green p-4 rounded-xl">Web Development</div>
-        <div class="bg-app-black p-4 rounded-xl">Graphic Design</div>
+        <div class="bg-mint-green p-4 rounded-xl">
+          <div class="pb-5 px-4">
+            <div class="flex justify-center">
+              <img src="/images/web-dev.svg" alt="Web Design" class="h-[130px] rounded-full border-[12px] border-app-light-black -mt-[78px]">
+            </div>
+            <p class="text-2xl font-bold text-center my-3"><span class="text-app-black">Web</span> <span class="text-app-orange font-bold">Development</span></p>
+            <p class="text-justify text-app-black font-medium"> Building robust, scalable, and efficient web applications using modern technologies and best practices to ensure functionality, performance, and security. Specializing in both front-end and back-end development to deliver high-quality, maintainable code and exceptional user experiences.</p>
+          </div>
+        </div>
+        <div class="bg-app-black p-4 rounded-xl">
+          <div class="pb-5 px-4">
+            <div class="flex justify-center">
+              <img src="/images/graphic.svg" alt="Web Design" class="h-[130px] rounded-full border-[12px] border-app-light-black -mt-[78px]">
+            </div>
+            <p class="text-2xl font-bold text-center my-3"><span class="text-mint-green">Graphic</span> <span class="text-app-orange font-bold">Design</span></p>
+            <p class="text-justify">Creating impactful visual content, including image processing, with a keen eye for detail, color, and typography. Utilizing industry-standard design software to produce creative and compelling graphics that effectively communicate your brand’s message and leave a lasting impression on your audience.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
