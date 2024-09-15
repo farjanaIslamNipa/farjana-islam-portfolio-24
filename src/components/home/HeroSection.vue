@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white dark:bg-dark-blue">
     <div class="app-container">
-      <div class="grid grid-cols-12 gap-x-0 sm:gap-x-5 lg:gap-x-10 pt-10 sm:pt-4 lg:pt-10 items-center">
+      <div class="grid grid-cols-12 gap-x-0 sm:gap-x-5 lg:gap-x-10 pt-10 sm:pt-4 lg:pt-16 pb-20 items-center">
         <div class="col-span-full sm:col-span-6 flex w-full justify-center sm:justify-end">
           <div class="flex items-center gap-x-4">
             <div>
